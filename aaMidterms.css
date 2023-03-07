@@ -1,0 +1,364 @@
+/* TOP PART */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    scroll-behavior: smooth;
+}
+.main   
+{
+    height: 70px;
+    width: 100px;
+    border: 4px solid rgb(131, 112, 4);
+    border-radius: 3pxs;
+}
+body
+{
+    background-color: #313131;
+}
+.navbar
+{
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.topart
+{
+    padding-top: 80px;
+}
+.homepart
+{
+    padding-top: 80px;
+}
+nav
+{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+}
+.Name
+{
+    float: left;
+    padding-top: 5px;
+    color: rgb(131, 112, 4);
+    line-height: 80px;
+    padding-left:100px;
+    padding-right: 0;
+
+}
+nav ul
+{
+    float: right;
+    margin-right: 25px;
+
+}
+nav ul li
+{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0;
+    padding: 0 10px;
+}
+nav ul li a
+{
+    border: 3px solid rgb(131, 112, 4);
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+    color: rgb(131, 112, 4);
+    font-size: 18px;
+}
+nav ul li a:hover
+{
+    background-color: #555;
+}
+
+/* TOP PART */
+
+/* HOME PART */
+
+.homepage
+{
+    background: url(bg2.png);
+    background-size: cover;
+}
+.home-text
+{
+    float: left;
+    padding-top: 17%;
+    padding-left: 100px;
+    font-family: 'Poppins', sans-serif;
+}
+.Hello
+{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 41px;
+}
+.Im
+{
+    padding-left: 10px;
+    color: white;
+    font-size: 41px;
+}
+.name
+{
+    color: white;
+    font-size: 60px;
+}
+.firstL
+{
+    color: black;
+    font-size: 65px;
+}
+.sub
+{
+    color: white;
+    font-size: 41px; 
+}
+.stud
+{
+    color: black;
+    font-size: 41px;
+}
+.frontp
+{
+    font-size: 25px;
+}
+
+/* HOME PART */
+
+/* MINIMIZE */
+
+@media screen and (max-width: 810px) 
+{
+    ul.nav
+    {
+        display: none;
+    }
+}
+
+
+/* MINIMIZE */
+
+/* SKILLS PART */
+
+*{
+    box-sizing: border-box
+}
+
+.column 
+{
+    width: 20%;
+    float: left;
+}
+.row::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+.BASIC
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: black;
+    border: 5px solid rgb(131, 112, 4);
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 7px;
+}
+.ADVANCE
+{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: black;
+    border: 5px solid rgb(131, 112, 4);
+    color: white;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+/* SKILLS PART */
+
+/* CREDENTIALS PART */
+
+.creds-text
+{
+    float: left;
+    padding-top: 122px;
+    padding-bottom: 42px;
+    text-align: center;
+    padding-left: 340px;
+    padding-right: 340px;
+    font-family: 'Poppins', sans-serif;
+}
+.Lev
+{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 41px;
+}
+.Creds
+{
+    color: rgb(131, 112, 4);
+    font-size: 41px;
+}
+.credits
+{
+    border: 3px solid rgb(131, 112, 4);
+    padding: 10px;
+    border-radius: 3px;
+    color: white;
+    font-size: 18px;
+}
+/* CREDENTIALS PART */
+
+/* CONTACTS PART */
+
+.contact-text
+{
+
+    padding-top: 200px;
+    padding-bottom: 42px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    padding-left: 500px;
+    padding-right: 500px;
+}
+.contactp
+{
+
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 18px;
+    border: 2px solid rgb(131, 112, 4);
+}
+.EC
+{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 41px;
+}
+.AN
+{
+    color: rgb(131, 112, 4);
+    font-size: 41px;
+}
+/* CONTACTS PART */
+
+/* ABOUT PART */
+
+.about-text
+{
+    float: left;
+    padding-top: 200px;
+    padding-bottom: 42px;
+    text-align: center;
+    padding-left: 320px;
+    padding-right: 320px;
+    font-family: 'Poppins', sans-serif;
+}
+.About
+{
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 41px;
+}
+.meh
+{
+    color: rgb(131, 112, 4);
+    font-size: 41px;
+}
+.aboutp
+{
+    border: 3px solid rgb(131, 112, 4);
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+}
+
+/* ABOUT PART */
+
+
+
+
+
+
+
+
+
+
+
+
+/* div 
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+info1
+{
+    float: left;
+    border: 3px solid rgb(131, 112, 4);
+    color: black;
+    padding: 3px;
+    margin: 5px;
+    border-radius: 7px;
+}
+label1
+{
+    border: 3px solid rgb(131, 112, 4);
+    margin: 5px;
+    border-radius: 7px;
+}
+name 
+{
+    font-size: 35px;
+    float: left;
+    padding-left: 50px;
+    padding-top: 90px;
+    font-weight: lighter;
+}
+age
+{
+    float: left;
+    font-size: 30px;
+    padding-left: 50px;
+}
+gender
+{
+    float: left;
+    font-size: 30px;
+    padding-left: 100px;
+}
+add
+{
+    float: left;
+    font-size: 30px;
+    padding-left: 50px;
+}
+school
+{
+    float: left;
+    font-size: 30px;
+    padding-left: 50px;
+ } */
